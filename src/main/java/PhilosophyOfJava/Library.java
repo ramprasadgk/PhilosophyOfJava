@@ -6,7 +6,7 @@ package PhilosophyOfJava;
 public class Library {
     public boolean someLibraryMethod() {
     	System.out.println("OKK,,,, let's begin");
-    	System.out.println("BEGIN");
+    	System.out.println("BEGIN...");
     	
         return true;
     }
