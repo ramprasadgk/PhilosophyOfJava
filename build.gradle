@@ -25,5 +25,16 @@ dependencies {
     implementation 'com.google.guava:guava:26.0-jre'
 
     // Use JUnit test framework
-    testImplementation 'junit:junit:4.12'
+    //testImplementation 'junit:junit:4.12'
+      compile  group: 'org.testng', name: 'testng', version: '6.14.3'
+    
+}
+
+
+test {
+    useTestNG {
+        testLogging.showStandardStreams = true
+        preserveOrder true
+        useDefaultListeners = true
+    }
 }
